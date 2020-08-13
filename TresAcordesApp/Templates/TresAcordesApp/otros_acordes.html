@@ -1,0 +1,58 @@
+{% extends "TresAcordesApp/base.html" %}
+
+{% load static %}
+
+{% block content %} 
+
+    <section class="page-section clearfix">
+        <h1 style="text-align: center;"><p style="color: rgba(0, 95, 0, 0.8);">Otros Acordes</p></h1>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">La Camisa Salmón</h4>
+            <a href="{% url 'Salmon' %}">
+                <img title="s" src="{% static 'TresAcordesApp/img/OtrosAcordes/Salmon.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>            
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Cuidame La Casa</h4>
+            <a href="{% url 'Casa' %}">
+                <img title="s" src="{% static 'TresAcordesApp/img/OtrosAcordes/Casa.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>            
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Imprudentes</h4>
+            <a href="{% url 'Imprudentes' %}">
+                <img title="s" src="{% static 'TresAcordesApp/img/OtrosAcordes/Imprudentes.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>            
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Macerado De Hierbas Alucinógenas</h4>
+            <a href="{% url 'Macerado' %}">
+                <img title="s" src="{% static 'TresAcordesApp/img/OtrosAcordes/Macerado.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>            
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Una Historia Pendiente</h4>
+            <a href="{% url 'Pendiente' %}">
+                <img title="s" src="{% static 'TresAcordesApp/img/OtrosAcordes/Pendiente.gif' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>            
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Las Fiestas de Alex</h4>
+            <a href="{% url 'Fiestas' %}">
+                <img title="s" src="{% static 'TresAcordesApp/img/OtrosAcordes/Fiestas.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>            
+        </div>
+      
+
+
+    </section>
+
+
+
+{% endblock %}

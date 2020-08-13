@@ -1,0 +1,39 @@
+{% extends "EdificioApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<section class="page-section clearfix">
+  <h1 style="text-align: center;"><p style="color: rgba(95, 0, 0, 0.8);">El Último Edificio De La Cuadra</p></h1>
+
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(95, 0, 0, 0.8); ">Afortunada Desdicha</h4>
+      <a href="{% url 'afortunada' %}">
+          <img title="Afortunada Desdicha" src="{% static 'EdificioApp/img/Temporadauno/Afortunada.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(95, 0, 0, 0.8); ">El Dinero</h4>
+      <a href="{% url 'Dinero' %}">
+          <img title="El Dinero" src="{% static 'EdificioApp/img/Temporadauno/Dinero.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(95, 0, 0, 0.8); ">Una Nueva Etapa</h4>
+      <a href="{% url 'Nueva' %}">
+          <img title="Una Nueva Etapaa" src="{% static 'EdificioApp/img/Temporadauno/Nueva.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+
+
+
+
+</section>
+
+<P style="margin-right: 1cm; margin-left: 1cm; color: rgba(95, 0, 0, 0.8); font-size: .5cm; text-align: center;">El Último Edificio De La Cuadra.</P>
+
+{% endblock %}

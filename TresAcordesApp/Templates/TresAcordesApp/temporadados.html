@@ -1,0 +1,74 @@
+{% extends "TresAcordesApp/base.html" %}
+
+{% load static %}
+
+{% block content %} 
+
+    <section class="page-section clearfix">
+
+    
+        <h1 style="text-align: center;"><p style="color: rgba(0, 95, 0, 0.8);">Temporada Dos</h1>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Aires Campestres</h4>
+            <a href="{% url 'Aires' %}">
+                <img title="Aires Campestres" src="{% static 'TresAcordesApp/img/Temporadados/Aires.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">La Historia Sin Fin</h4>
+            <a href="{% url 'Historia' %}">
+                <img title="La Historia Sin Fin" src="{% static 'TresAcordesApp/img/Temporadados/Historia.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Misofonía</h4>
+            <a href="{% url 'Misofonia' %}">
+                <img title="Misofonía" src="{% static 'TresAcordesApp/img/Temporadados/Misofonia.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">El Cuadro</h4>
+            <a href="{% url 'Cuadro' %}">
+                <img title="El Cuadro" src="{% static 'TresAcordesApp/img/Temporadados/Cuadro.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">El Resumen Semanal Deportivo</h4>
+            <a href="{% url 'Resumen' %}">
+                <img title="El Resumen Semanal Deportivo" src="{% static 'TresAcordesApp/img/Temporadados/Resumen.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">La Navidad De Eduard</h4>
+            <a href="{% url 'Navidad' %}">
+                <img title="La Navidad De Eduard" src="{% static 'TresAcordesApp/img/Temporadados/Navidad.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">La Desconexión De Adriel</h4>
+            <a href="{% url 'Desconexion' %}">
+                <img title="La Desconexión De Adriel" src="{% static 'TresAcordesApp/img/Temporadados/Desconexion.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Los Sueños De Jaique</h4>
+            <a href="{% url 'Jaique' %}">
+                <img title="Los Sueños De Jaique" src="{% static 'TresAcordesApp/img/Temporadados/Jaique.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+    </section>
+
+    <P style="margin-right: 1cm; margin-left: 1cm; color: rgba(0, 95, 0, 0.8); font-size: .5cm; text-align: center;">Los guiones y la animación empiezan a tomar ritmo y se encaminan hacia un sendero más coherente. Los personajes desarrollan cierta personalidad y las historias empiezan a volarse un poco.</P>
+
+
+
+{% endblock %}

@@ -1,0 +1,72 @@
+{% extends "TresAcordesApp/base.html" %}
+
+{% load static %}
+
+{% block content %} 
+
+    <section class="page-section clearfix">
+        <h1 style="text-align: center;"><p style="color: rgba(0, 95, 0, 0.8);">Tuquitas De Animación</p></h1>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Silencio</h4>
+            <a href="{% url 'Silencio' %}">
+                <img title="Silencio" src="{% static 'TresAcordesApp/img/TDA/Silencio.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Aprendizaje</h4>
+            <a href="{% url 'Aprendizaje' %}">
+                <img title="Aprendizaje" src="{% static 'TresAcordesApp/img/TDA/Aprendizaje.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+   
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Persecuta</h4>
+            <a href="{% url 'Persecuta' %}">
+                <img title="Una Nueva Etapa" src="{% static 'TresAcordesApp/img/TDA/Persecuta.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+   
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Metas</h4>
+            <a href="{% url 'Metas' %}">
+                <img title="Metas" src="{% static 'TresAcordesApp/img/TDA/Metas.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+    
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Corte</h4>
+            <a href="{% url 'Corte' %}">
+                <img title="Corte" src="{% static 'TresAcordesApp/img/TDA/Corte.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Apuesta</h4>
+            <a href="{% url 'Apuesta' %}">
+                <img title="Apuesta" src="{% static 'TresAcordesApp/img/TDA/Apuesta.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Última</h4>
+            <a href="{% url 'Ultima' %}">
+                <img title="Ultima" src="{% static 'TresAcordesApp/img/TDA/ultima.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+    
+    
+    </section>
+
+    <P style="margin-right: 1cm; margin-left: 1cm; color: rgba(0, 95, 0, 0.8); font-size: .5cm; text-align: center;">Una serie de cortitos.</P>
+
+
+   
+
+{% endblock %}

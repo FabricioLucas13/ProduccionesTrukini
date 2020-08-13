@@ -1,0 +1,42 @@
+{% extends "DakYMaxApp/base.html" %}
+
+{% load static %}
+
+{% block content %} 
+
+    <section class="page-section clearfix">
+        <h1 style="text-align: center;"><p style="color: rgba(0, 0, 95, 0.8);">Las Crono-Aventuras De Dak & Max</p></h1>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 95, 0.8); ">Punto De Partida/Llegada</h4>
+            <a href="{% url 'Llegada' %}">
+                <img title="Punto De Partida/Llegada" src="{% static 'DakYMaxApp/img/Temporadauno/Crono.gif' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 95, 0.8); ">Bucle Imperfecto</h4>
+            <a href="{% url 'Imperfecto' %}">
+                <img title="Bucle Imperfecto" src="{% static 'DakYMaxApp/img/Temporadauno/Imperfecto.gif' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 95, 0.8); ">Trenzado</h4>
+            <a href="{% url 'Trenzado' %}">
+                <img title="Trenzado" src="{% static 'DakYMaxApp/img/Temporadauno/Trenzado.gif' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+
+
+
+    
+    </section>
+
+    <P style="margin-right: 1cm; margin-left: 1cm; color: rgba(0, 0, 95, 0.8); font-size: .5cm; text-align: center;">Las Crono-Aventuras De Dak & Max.</P>
+
+
+   
+
+{% endblock %}

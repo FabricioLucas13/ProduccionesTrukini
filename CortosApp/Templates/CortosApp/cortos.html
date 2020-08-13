@@ -1,0 +1,128 @@
+{% extends "CortosApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<section class="page-section clearfix">
+  <h1 style="text-align: center;"><p style="color: rgba(0, 0, 0, 0.8);">Unos Cortos</p></h1>
+
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Cazador - La Desgracia De Vivir</h4>
+      <a href="{% url 'Desgracia' %}">
+          <img title="Cazador - La Desgracia De Vivir" src="{% static 'CortosAPp/img/Temporadauno/Desgracia.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Esto No Es Un Capítulo</h4>
+      <a href="{% url 'Capitulo' %}">
+          <img title="Esto No Es Un Capítulo" src="{% static 'CortosAPp/img/Temporadauno/Capitulo.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Cortitos Para Las Fiestas</h4>
+      <a href="{% url 'Cortitos' %}">
+          <img title="Cortitos Para Las Fiestas" src="{% static 'CortosAPp/img/Temporadauno/Cortitos.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Espacio Publicitario</h4>
+      <a href="{% url 'Espacio' %}">
+          <img title="Espacio Publicitario" src="{% static 'CortosAPp/img/Temporadauno/Espacio.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Servilletas Negras</h5>
+      <a href="{% url 'Servilletas' %}">
+          <img title="Servilletas Negras" src="{% static 'CortosAPp/img/Temporadauno/Servilletas.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h5 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Perdonen, pero esto tampoco es un capítulo</h5>
+      <a href="{% url 'Perdonen' %}">
+          <img title="Perdonen, pero esto tampoco es un capítulo" src="{% static 'CortosAPp/img/Temporadauno/Perdonen.jpg' %}" height="275px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">El Veciono De Fernando</h4>
+      <a href="{% url 'Marmota' %}">
+          <img title="El Veciono De Fernando" src="{% static 'CortosAPp/img/Temporadauno/Marmota.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">La Muerte</h4>
+      <a href="{% url 'Muerte' %}">
+          <img title="La Muerte" src="{% static 'CortosAPp/img/Temporadauno/Muerte.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Esótericos</h4>
+      <a href="{% url 'Esotericos' %}">
+          <img title="Esótericos" src="{% static 'CortosAPp/img/Temporadauno/Esotericos.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Efemérides</h4>
+      <a href="{% url 'Efemerides' %}">
+          <img title="Efemérides" src="{% static 'CortosAPp/img/Temporadauno/Efemerides.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Niños</h4>
+      <a href="{% url 'Ninos' %}">
+          <img title="Niños" src="{% static 'CortosAPp/img/Temporadauno/Ninos.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Publicidad De Actimia</h4>
+      <a href="{% url 'Publicidad' %}">
+          <img title="Publicidad De Actimia" src="{% static 'CortosAPp/img/Temporadauno/Publicidad.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Ay, Mamberto</h4>
+      <a href="{% url 'Mamberto' %}">
+          <img title="Ay, Mamberto<" src="{% static 'CortosAPp/img/Temporadauno/Mamberto.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+  
+  <div style="width: 33%; float: left">
+      <h4 style="margin-left: 2.5cm; color: rgba(0, 0, 0, 0.8); ">Charles Bukowski - Burn Like This</h4>
+      <a href="{% url 'Charles' %}">
+          <img title="Charles Bukowski - Burn Like This" src="{% static 'CortosAPp/img/Temporadauno/Charles.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+      </a>
+  </div>
+
+
+
+
+
+</section>
+
+<P style="margin-right: 1cm; margin-left: 1cm; color: rgba(0, 0, 0, 0.8); font-size: .5cm; text-align: center;">Cuando me canso de Tres Acordes o cuando le pierdo la practica al Flash, me gusta romper el hielo con unos cortitos.</P>
+
+{% endblock %}

@@ -1,0 +1,74 @@
+{% extends "TresAcordesApp/base.html" %}
+
+{% load static %}
+
+{% block content %} 
+
+    <section class="page-section clearfix">
+
+    
+        <h1 style="text-align: center;"><p style="color: rgba(0, 95, 0, 0.8);">Temporada Tres</h1>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Como Soltarle La Mano a La Vida</h4>
+            <a href="{% url 'Vida' %}">
+                <img title="Como Soltarle La Mano A La Vida" src="{% static 'TresAcordesApp/img/Temporadatres/Vida.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">El Caso De Norber</h4>
+            <a href="{% url 'Norber' %}">
+                <img title="El Caso De Norber" src="{% static 'TresAcordesApp/img/Temporadatres/Norber.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Ese Vicio Asqueroso</h4>
+            <a href="{% url 'Vicio' %}">
+                <img title="Ese Vicio Asqueroso" src="{% static 'TresAcordesApp/img/Temporadatres/Vicio.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Otra Canción De Amor</h4>
+            <a href="{% url 'Amor' %}">
+                <img title="Otra Canción De Amor" src="{% static 'TresAcordesApp/img/Temporadatres/Amor.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">ceBEATas</h4>
+            <a href="{% url 'Cebeatas' %}">
+                <img title="ceBEATas" src="{% static 'TresAcordesApp/img/Temporadatres/Cebeatas.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Pretencioso y Desprolijo Vol. 1</h4>
+            <a href="{% url 'Voluno' %}">
+                <img title="Pretencioso y Desprolijo Vol 1." src="{% static 'TresAcordesApp/img/Temporadatres/Voluno.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Pretencioso y Desprolijo Vol. 2</h4>
+            <a href="{% url 'Voldos' %}">
+                <img title="Pretencioso y Desprolijo Vol 2." src="{% static 'TresAcordesApp/img/Temporadatres/Voldos.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Pretencioso y Desprolijo Vol. 3</h4>
+            <a href="{% url 'Voltres' %}">
+                <img title="Pretencioso y Desprolijo Vol 3." src="{% static 'TresAcordesApp/img/Temporadatres/Voltres.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+    </section>
+
+    <P style="margin-right: 1cm; margin-left: 1cm; color: rgba(0, 95, 0, 0.8); font-size: .5cm; text-align: center;">Más de lo mismo... Pero mejor.</P>
+
+
+
+{% endblock %}

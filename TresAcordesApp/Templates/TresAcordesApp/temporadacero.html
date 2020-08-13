@@ -1,0 +1,80 @@
+{% extends "TresAcordesApp/base.html" %}
+
+{% load static %}
+
+{% block content %} 
+
+    <section class="page-section clearfix">
+        <h1 style="text-align: center;"><p style="color: rgba(0, 95, 0, 0.8);">Temporada Cero</p></h1>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Videojuegos</h4>
+            <a href="{% url 'Videojuegos' %}">
+                <img title="Videojuegos" src="{% static 'TresAcordesApp/img/Temporadacero/Videojuegos.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>            
+        </div>
+      
+          
+        <div style="width: 33%; float: left">
+            <h6 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">El Día Que Fleko Se Convirtio En Silver Surfer</h6>
+            <a href="{% url 'Fleko' %}">
+                <img title="El Día Que Fleko Se Convirtio En Silver Surfer" src="{% static 'TresAcordesApp/img/Temporadacero/Fleko.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>            
+        </div>
+       
+            
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">¿No Lo Viste A Adriel?</h4>
+            <a href="{% url 'Visteadriel' %}">
+                <img title="¿No Lo Viste A Adriel?" src="{% static 'TresAcordesApp/img/Temporadacero/Visteadriel.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">¿Dónde Está Adriel?</h4>
+            <a href="{% url 'Dondeadriel' %}">
+                <img title="¿Dónde Está Adriel?" src="{% static 'TresAcordesApp/img/Temporadacero/Dondeadriel.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Saludos A William S. Sessions</h4>
+            <a href="{% url 'William' %}">
+                <img title="Saludos A William S. Sessions" src="{% static 'TresAcordesApp/img/Temporadacero/William.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Una Schubertiada</h4>
+            <a href="{% url 'Schubertiada' %}">
+                <img title="Una Schubertiada" src="{% static 'TresAcordesApp/img/Temporadacero/Schubertiada.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Sobre La Existencia</h4>
+            <a href="{% url 'Existencia' %}">
+                <img title="Sobre La Existencia" src="{% static 'TresAcordesApp/img/Temporadacero/Existencia.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h6 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Artistas Victimas De La Evolución Tecnológica</h6>
+            <a href="{% url 'Evolucion' %}">
+                <img title="Artistas Victimas De La Evolución Tecnológica" src="{% static 'TresAcordesApp/img/Temporadacero/Evolucion.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">Yo, El Tiempo</h4>
+            <a href="{% url 'Tiempo' %}">
+                <img title="Yo, El Tiempo" src="{% static 'TresAcordesApp/img/Temporadacero/Tiempo.jpg' %}" height="250px" width="350px" style="margin-left: 2.5cm;" alt="">
+            </a>
+        </div>
+
+    </section>
+
+    <P style="margin-right: 1cm; margin-left: 1cm; color: rgba(0, 95, 0, 0.8); font-size: .5cm; text-align: center;">El amateurismo total, los tristes comienzos. No tenía ni idea lo que quería y eso se ve reflejado en esta temporada.</P>
+   
+
+{% endblock %}

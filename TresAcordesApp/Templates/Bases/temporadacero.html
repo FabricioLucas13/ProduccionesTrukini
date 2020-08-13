@@ -1,0 +1,21 @@
+{% extends "TresAcordesApp/base.html" %}
+
+{% load static %}
+
+{% block content %} 
+
+    <section class="page-section clearfix">
+
+    
+        <h1 style="text-align: center;"><p style="color: rgba(0, 95, 0, 0.8);">Titulo</p></h1>
+
+        <div style="width: 33%; float: left">
+            <h4 style="margin-left: 2.5cm; color: rgba(0, 95, 0, 0.8); ">titulo</h4>
+            <a href="{% url '' %}">
+                <img title="titulo" src="{% static 'TresAcordesApp/img/imagen.jpg' %}" height="250px" width="250px" style="margin-left: 2.5cm;" alt="">
+            </a>
+            </div>
+    
+    </section>
+
+{% endblock %}
